@@ -51,10 +51,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/GhostRadha",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
             ),
            InlineKeyboardButton(
-                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/RadhaX2Support",
+                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
             ),
         ],
         [
@@ -104,10 +104,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/GhostRadha",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/RadhaX2Support",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
             ),
         ],
         [
@@ -150,10 +150,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/GhostRadha",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/RadhaX2Support",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
             ),
         ],
         [
@@ -184,10 +184,10 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/GhostRadha",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/Radhax2support",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
             ),
         ],
         [
@@ -341,10 +341,10 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/GhostRadha",
+                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/RadhaX2Support",
+                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
             ),
         ],
         [
