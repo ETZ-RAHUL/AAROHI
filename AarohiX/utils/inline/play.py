@@ -112,7 +112,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️] 🥀", url=config.SUPPORT_GROUP
+                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️] 🥀", url=f"https://t.me/ro_yalworld",
             ),
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
@@ -145,7 +145,7 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
+                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=f"https://t.me/ro_yalworld",
             ),
         ],
         [
@@ -192,7 +192,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
+                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=f"https://t.me/ro_yalworld",
             ),
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
@@ -239,7 +239,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{config.SUPPORT_GROUP}",
+                url=f"https://t.me/ro_yalworld",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -264,7 +264,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{config.SUPPORT_GROUP}",
+                url=f"https://t.me/ro_yalworld",
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
@@ -336,7 +336,7 @@ def queue_markup(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=config.SUPPORT_GROUP
+                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=f"https://t.me/ro_yalworld",
             )
         ],
         [
