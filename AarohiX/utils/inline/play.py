@@ -46,7 +46,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=config.SUPPORT_GROUP
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
             ),
         ],
         [
