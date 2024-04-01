@@ -4,10 +4,10 @@ from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message
 from config import LOGGER_ID as LOG_GROUP_ID
-from AAROHI import app  
-from AAROHI.core.userbot import Userbot
-from AAROHI.utils.database import delete_served_chat
-from AAROHI.utils.database import get_assistant
+from AarohiX import app  
+from AarohiX.core.userbot import Userbot
+from AarohiX.utils.database import delete_served_chat
+from AarohiX.utils.database import get_assistant
 
 
 
