@@ -45,19 +45,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="➕ ✨ ᴩʟᴀʏʟɪsᴛ ✨ ➕",
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
-            ),
-        ],
-        [
-           InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
-            ),
-           InlineKeyboardButton(
-                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
-            ),
-        ],
-        [
+            
+        
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -103,17 +92,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
         ],
         [
-           InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
-            ),
-           InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️] 🥀", url=f"https://t.me/ro_yalworld",
-            ),
+           
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -144,19 +123,7 @@ def stream_markup(_, videoid, chat_id):
                 text="➕ ✨ ᴩʟᴀʏʟɪsᴛ ✨ ➕",
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=f"https://t.me/ro_yalworld",
-            ),
-        ],
-        [
-           InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
-            ),
-           InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
-            ),
-        ],
-        [
+            
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -183,17 +150,7 @@ def telegram_markup(_, chat_id):
             ),
         ],
         [
-           InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
-            ),
-           InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=f"https://t.me/ro_yalworld",
-            ),
+           
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -262,10 +219,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
             ),
         ],
         [
-            InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"https://t.me/ro_yalworld",
-            ),
+            
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -335,19 +289,7 @@ def queue_markup(_, videoid, chat_id):
                 text="➕ ✨ ᴩʟᴀʏʟɪsᴛ ✨ ➕",
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ[ᴅɪʟ❣️]🥀", url=f"https://t.me/ro_yalworld",
-            )
-        ],
-        [
-           InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/oye_daddy",
-            ),
-           InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/ro_yalworld",
-            ),
-        ],
-        [
+            
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
